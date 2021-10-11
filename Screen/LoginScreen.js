@@ -47,7 +47,7 @@ const LoginScreen = ({navigation}) => {
       method: 'POST',
       body: formBody,
       headers: {
-        //Header Defination
+        //Header Definition
         'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
       },
     })
