@@ -1,7 +1,11 @@
-import React from 'react';
-import {View, Text, SafeAreaView} from 'react-native';
+// Example of Splash, Login and Sign Up in React Native
+// https://aboutreact.com/react-native-login-and-signup/
 
-const HomeScreen = () => {
+// Import React and Component
+import React from 'react';
+import {View, Text, SafeAreaView, StyleSheet} from 'react-native';
+
+const History = () => {
   return (
     <SafeAreaView style={{flex: 1}}>
       <View style={{flex: 1, padding: 16}}>
@@ -19,7 +23,7 @@ const HomeScreen = () => {
             }}>
             Example of Splash, Login and Sign Up in React Native
             {'\n\n'}
-            This is the Home Screen
+            This is the Settings Screen
           </Text>
         </View>
         <Text
@@ -43,4 +47,4 @@ const HomeScreen = () => {
   );
 };
 
-export default HomeScreen;
+export default History;

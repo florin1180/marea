@@ -1,7 +1,3 @@
-// Example of Splash, Login and Sign Up in React Native
-// https://aboutreact.com/react-native-login-and-signup/
-
-// Import React
 import React from 'react';
 
 // Import Navigators from React Navigation
@@ -71,7 +67,7 @@ const settingScreenStack = ({navigation}) => {
 const DrawerNavigatorRoutes = (props) => {
   return (
     <Drawer.Navigator
-      drawerContentOptions={{
+      screenOptions={{
         activeTintColor: '#cee1f2',
         color: '#cee1f2',
         itemStyle: {marginVertical: 5, color: 'white'},
